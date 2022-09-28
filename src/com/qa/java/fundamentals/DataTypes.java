@@ -52,6 +52,11 @@ public class DataTypes {
 		isEligible = false;
 
 		System.out.println("Is Eligible : " + isEligible);
+		
+		int value = 18;
+		int hexaDecimal = 0Xabc;
+		System.out.println(value);
+		System.out.println(hexaDecimal);
 
 	}
 
