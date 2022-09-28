@@ -14,6 +14,8 @@ public class DataTypes {
 		// datatype variable
 		byte age; // -128 to + 127
 		age = 35;
+		
+		age = 50;
 
 		// byte eligibleAge = 20; // not coding standard
 		byte eligibleAge;
