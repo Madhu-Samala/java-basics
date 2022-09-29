@@ -10,6 +10,8 @@ public class CallByValue {
 		return no1 + no2;
 	}	
 	
+	
+	
 	public static void main(String[] args) {
 		//call sum method
 		int no1 = 100;
