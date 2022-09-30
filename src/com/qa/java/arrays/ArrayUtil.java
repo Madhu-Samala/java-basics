@@ -39,4 +39,18 @@ public class ArrayUtil {
 		}
 		return count;
 	}
+	
+	// Find the employee by name
+	Employee findByName(Employee[] emps, String name) {
+		Employee employee = null;
+		for(Employee emp : emps) {
+			if(emp.name == name)
+				employee = emp;
+				
+		}
+		
+		return employee;
+	}
+	
+	
 }

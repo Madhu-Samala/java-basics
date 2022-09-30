@@ -40,6 +40,9 @@ public class ArrayOfObjects {
 		ArrayUtil arrayUtil = new ArrayUtil();
 		System.out.println(
 				"Total Male Employee above Age : 30 years are : " + arrayUtil.employeeAgeAndGender(emps, 30, 'M'));
+	
+		Employee empByName = arrayUtil.findByName(emps, "emp3");
+		System.out.println("Id : " +empByName.name);
 	}
 
 }
