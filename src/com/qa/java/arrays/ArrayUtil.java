@@ -24,5 +24,19 @@ public class ArrayUtil {
 
 		return count;
 	}
-
+	
+	
+	
+	//How many employees are above the age of 25 and Male
+	/* int employeeAgeAndGender(Employee[] emps, int age, char gender)
+	 * 
+	 */
+	int employeeAgeAndGender(Employee[] emps, int age, char gender) {
+		int count = 0;
+		for(Employee emp : emps) {
+			if(emp.age >= age && emp.gender == gender)
+				count++;
+		}
+		return count;
+	}
 }
